@@ -23,7 +23,15 @@ module.exports = appInfo => {
       '.nj': 'nunjucks',
     },
   }
-
+  config.mongoose = {
+    url: 'mongodb://127.0.0.1/blog',
+    options: {
+      // useCreateIndex: true,
+      // useNewUrlParser: true
+    },
+    
+  };
+ 
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

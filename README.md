@@ -32,3 +32,11 @@ $ npm stop
 
 [egg]: https://eggjs.org
 
+lsof -i:7001
+kill -9 6834
+
+静态文件目录
+
+
+2019-08-04 23:22:53,893 WARN 39216 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+[2019-08-04 23:22:53.904] [cfork:master:42204] worker:51136 exit (code: null, exitedAfterDisconnect: true, state: dead, isDead: true, isExpected: true, worker.disableRefork: false)
